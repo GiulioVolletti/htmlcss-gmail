@@ -30,11 +30,16 @@ button{
 
 /* conteggio messaggi non letti */
 #counter {
-background-color: orange;
-border-radius: 50%;
-/* distanza bordo testo */
-padding: 15px;
-/* /distanza bordo testo */
+  background: orange;
+  border-radius: 50%;
+  /* distanza bordo testo */
+  display: inline-block;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  /* alternativa rimuovendo precendente padding: 15px; */
+  /* /distanza bordo testo */
 }
 /* /conteggio messaggi non letti */
 
